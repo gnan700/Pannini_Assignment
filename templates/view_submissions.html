@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Submissions</title></head>
+<body>
+  <h2>Submissions for Assignment</h2>
+  <ul id="submission-list"></ul>
+  <script>
+    fetch("/submissions/assignment/1", {
+      headers: { "Authorization": "Bearer YOUR_JWT_TOKEN" }
+    })
+    .then(res => res.json())
+    .then(data => {
+      const list = document.getElementById("submission-list");
+      data.forEach(sub => {
+        const item = document.createElement("li");
+        item.textContent = `Student ${sub.student_id}: ${sub.content}`;
+        list.appendChild(item);
+      });
+    });
+  </script>
+</body>
+</html>
