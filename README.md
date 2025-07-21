@@ -33,15 +33,7 @@ A comprehensive assignment tracking system for educational institutions with rol
 - Swagger UI: http://localhost:8000/swagger/
 - ReDoc: http://localhost:8000/redoc/
 
-## Default Users
 
-After running migrations and fixtures:
-- Teacher: teacher@example.com / password123
-- Student: student@example.com / password123
-
-## License
-
-MIT License
 
 ## 📋 Assignment Requirements
 
@@ -54,7 +46,7 @@ This project fulfills all requirements for the EdTech Assignment Tracking System
 - [x] **Authentication Strategy**: JWT-based role-based authentication
 - [x] **Scaling Strategy**: Future scaling roadmap and technology evolution
 
-**📄 [View Complete System Design Documentation](SYSTEM_DESIGN.md)**
+
 
 ### Part B - Implementation ✅
 - [x] **User Authentication**: Role-based signup/login (Teachers & Students)
@@ -70,8 +62,4 @@ This project fulfills all requirements for the EdTech Assignment Tracking System
 - [x] **Assignment Submission**: Student interface for submitting work
 - [x] **Submission Management**: Teacher interface for viewing submissions
 
-### Bonus Features ✅
-- [x] **File Upload**: Support for assignment file attachments
-- [x] **API Documentation**: Complete Swagger/OpenAPI documentation
-- [x] **UI/UX**: Modern responsive design with Tailwind CSS
-- [x] **Additional**: Real-time updates, error handling, loading states
+
